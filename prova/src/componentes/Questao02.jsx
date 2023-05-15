@@ -22,7 +22,7 @@ function Questao02() {
     return (
         <div>
             <h1>Questão 2</h1>
-            <div><img src={srcImagem} alt="Pikachu" /></div>
+            <div><img width={'200px'} src={srcImagem} alt="Pikachu" /></div>
             <div><button onClick={Trocar}>Me aperte</button></div>     
         </div>
     );
